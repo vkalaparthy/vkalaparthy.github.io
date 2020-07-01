@@ -1,46 +1,62 @@
-<!-- HTML Bio with CSS -->
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>AboutMe-Home page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="asset/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <!-- jQuery CDN -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Bootstrap CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
 
-<head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <a class="navbar-brand" href="index.html" id="logo">Vani Kalaparthy</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
 
-  <meta charset="UTF-8">
-  <title>1.2.9 Exercise</title>
-
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-  <header>
-    <h1>Student Bio</h1>
-  </header>
-
-  <div class="container">
-
-    <section id="main-bio">
-
-      <h2>Your Name</h2>
-      <img src="http://placehold.it/200x200" alt="Your Image" id="bio-image">
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-
-    </section>
-
-    <section id="contact-info">
-
-      <h2>Contact Info</h2>
-
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-
-    </section>
-
-  </div>
-
-</body>
-
+          <!-- Main part of the content -->
+          <main class="container">
+            <!--div class="content-wrap"-->
+                <section class="row">
+                    <div class="col-md-8">
+                      <article class="block">
+                        <h1 class="block-header">About Me</h1>
+                        <hr />
+                        <img src="imgBank/profilePic.jpg" alt="profile-pic" class="photo">
+                        <p>More text will be added later</p>
+                        <br />
+                        <a href="https://www.linkedin.com/in/vani-kalaparthy-aa01319/" target="_blank"> My LinkedIn Page</a>
+                      </article>
+                    </div>
+                </section>
+            <!--/div-->
+          </main>
+          <footer class="footerSection">
+                <p>&copyCopyright</p>
+        </footer>
+    </body>
 </html>

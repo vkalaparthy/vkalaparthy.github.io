@@ -2,7 +2,7 @@
 <html>
     <head>
       <meta charset="UTF-8">
-      <title>Contact page</title>
+      <title>Portfolio page</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="asset/reset.css">
       <link rel="stylesheet" type="text/css" href="assets/style.css">
@@ -44,31 +44,51 @@
           <section class="row">
             <div class="col-md-8">
               <article class="block">
-                <h1 class="block-header">Contact</h1>
+                <h1 class="block-header">Portfolio</h1>
                 <hr />
-                <form>
-                  <div class="form-group">
-                    <label for="formGroupExampleInput">Name</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Doe">
+                <div class="row row-cols-1 row-cols-md-2">
+                  <div class="col mb-4">
+                    <div class="card custom-card">
+                      <img src="imgBank/doggy.jpg" alt="image1-1" class="cardholder">
+                      <!--img src="doggy.jpg" class="card-img-top" alt="image1-1"-->
+                      <div class="bottom-text">Text here</div>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <label for="formGroupExampleInput2">Email</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
+                  <div class="col mb-4">
+                      <div class="card custom-card">
+                          <img src="imgBank/doggy.jpg" alt="image1-2" class="cardholder">
+                          <!--img src="doggy.jpg" class="card-img-top" alt="image1-1"-->
+                          <div class="bottom-text">Text here</div>
+                      </div>
                   </div>
-                  <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Message</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                  <div class="col mb-4">
+                    <div class="card custom-card">
+                      <img src="imgBank/doggy.jpg" alt="image2-1" class="card-img-top">
+                      <div class="bottom-text">Text here</div>
+                    </div>
                   </div>
-                </form>
-                <button type="submit" class="btn custom-button">Submit</button>
+                  <div class="col mb-4">
+                    <div class="card custom-card">
+                      <img src="imgBank/doggy.jpg" alt="image2-2" class="card-img-top">
+                      <div class="bottom-text">Text here</div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                      <div class="card custom-card">
+                        <img src="imgBank/doggy.jpg" class="card-img-top" alt="image3-1">
+                        <div class="bottom-text">Text here</div>
+                      </div>
+                  </div>
+                </div>
               </article>
             </div>
           </section>
         </div>
       </main>
+
       <footer class="footerSection">
         <div class="footer navbar-fixed-bottom">
             <p>&copyCopyright</p>
-      </footer>
+    </footer>
     </body>
 </html>
