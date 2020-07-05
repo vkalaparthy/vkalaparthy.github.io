@@ -6,10 +6,6 @@
         <title>AboutMe-Home page</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/style.css">
-        <!-- jQuery CDN -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Bootstrap CDN -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </head>
 
     <body>
@@ -39,7 +35,8 @@
         </nav>
 
           <!-- Main part of the content -->
-          <main class="container">
+          <main role="main" class="flex-shrink-0">
+          <div class="container">
             <!--div class="content-wrap"-->
                 <section class="row">
                     <div class="col-md-8">
@@ -53,10 +50,18 @@
                       </article>
                     </div>
                 </section>
-            <!--/div-->
+            </div>
           </main>
-          <footer class="footerSection">
+          <!--footer class="footerSection">
                 <p>&copyCopyright</p>
+        </footer -->
+        <footer class="footer mt-auto py-3">
+          <div class="container">
+            <span class="text-muted">&copyCopyright</span>
+          </div>
         </footer>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Bootstrap CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </body>
 </html>

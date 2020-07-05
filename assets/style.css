@@ -41,9 +41,10 @@
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
   }
-  .container {
-    position: relative;
+  main .container {
+    /*position: relative; */
     flex-wrap: wrap;
+    padding-top: 40px;
   }
   /* wasn't sure to add fles-wrap in container or write a different class? */
   /*
@@ -93,7 +94,7 @@
 
 
 /******* Footer section for all html files ******/
-  .footerSection { 
+  /*.footerSection { 
     position: absolute; 
     border-top: 10px solid rgb(4, 124, 124);
     background-color: black;
@@ -103,6 +104,11 @@
     font-size: small;
     bottom: 0; 
     width: 100%;
+  } */
+  .footer {
+    border-top: 10px solid rgb(4, 124, 124);
+    background-color: black;
+    text-align: center;
   }
 
 /*******  media - common for all pages ******/
