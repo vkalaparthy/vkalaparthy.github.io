@@ -3,14 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AboutMe-Home page</title>
+    <title>Portfolio page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
- </head>
+  </head>
 
   <body>
     <nav class="navbar navbar-expand-md navbar-light">
@@ -25,7 +21,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">About</a>
+                <a class="nav-link" href="index.html">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -39,8 +35,8 @@
     </nav>
 
     <!-- Main part of the content -->
-    <main class="container">
-      <div class="content-wrap">
+    <main role="main">
+      <div class="container">
         <section class="row">
           <div class="col-md-8">
             <article class="block">
@@ -49,14 +45,14 @@
               <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-4">
                   <div class="card custom-card">
-                    <img src="imgBank/doggy.jpg" alt="image1-1" class="cardholder">
+                    <img src="imgBank/UnderConstruction.png" alt="image1-1" class="card-img-top">
                     <!--img src="doggy.jpg" class="card-img-top" alt="image1-1"-->
                     <div class="bottom-text">Text here</div>
                   </div>
                 </div>
                 <div class="col mb-4">
                     <div class="card custom-card">
-                        <img src="imgBank/doggy.jpg" alt="image1-2" class="cardholder">
+                        <img src="imgBank/under-construction2.gif" alt="image1-2" class="card-img-top">
                         <!--img src="doggy.jpg" class="card-img-top" alt="image1-1"-->
                         <div class="bottom-text">Text here</div>
                     </div>
@@ -69,13 +65,13 @@
                 </div>
                 <div class="col mb-4">
                   <div class="card custom-card">
-                    <img src="imgBank/doggy.jpg" alt="image2-2" class="card-img-top">
+                    <img src="imgBank/doggy.jpg" alt="image2-2" class="card-img-top" class="cardholder">
                     <div class="bottom-text">Text here</div>
                   </div>
                 </div>
                 <div class="col mb-4">
                   <div class="card custom-card">
-                    <img src="imgBank/doggy.jpg" class="card-img-top" alt="image3-1">
+                    <img src="imgBank/doggy.jpg" class="card-img-top" alt="image3-1" class="cardholder">
                     <div class="bottom-text">Text here</div>
                   </div>
                 </div>
@@ -86,9 +82,16 @@
       </div>
     </main>
 
-    <footer class="footerSection">
-      <div class="footer navbar-fixed-bottom">
-          <p>&copyCopyright</p>
+    <!-- Footer and Scripts section -->
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">&copyCopyright</span>
+      </div>
     </footer>
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
   </body>
 </html>

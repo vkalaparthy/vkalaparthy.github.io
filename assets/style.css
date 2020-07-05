@@ -18,12 +18,6 @@
     border-bottom: 1px solid lightgray;
   }
 
-  /*
-  .navbar-brand {
-      height: 75px;
-      width: 250px;
-  } */
-
   #logo {
     background: rgb(4, 124, 124); 
     color: white;
@@ -43,16 +37,11 @@
   }
   main .container {
     /*position: relative; */
-    flex-wrap: wrap;
-    padding-top: 40px;
+    flex-wrap: wrap; 
+    padding-top: 30px;
   }
-  /* wasn't sure to add fles-wrap in container or write a different class? */
-  /*
-  .content-wrap {
-    padding-bottom: 60px;
-  }
-  */
-  /* scroll down for common footer  and media */
+  
+/* common footer and media are at the end of this file */
 
 /******* styles for AboutMe-Home html file ******/
   .photo {
@@ -72,10 +61,18 @@
   .custom-card {
     text-align: center;
   }
+
+  
+  .card-img-top {
+    width: 100%;
+    height: 225px;
+  } 
+  
   .cardholder {
     width: 100%;
     height: 100%;
-  }
+  } 
+
   .bottom-text {
     position: absolute;
     padding: 10px;
