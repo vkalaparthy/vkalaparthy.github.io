@@ -114,7 +114,6 @@
 
   @media only screen and (max-width: 768px) {
     .navbar {
-      /*background-color: rgb(4, 124, 124); */
-      background-color: red;
+      background-color: rgb(4, 124, 124); 
     }
   }
