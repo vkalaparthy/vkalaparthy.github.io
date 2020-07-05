@@ -36,9 +36,9 @@
     font-weight: bold;
   }
   main .container {
-    position: relative; 
+    /*position: relative;  */
     flex-wrap: wrap; 
-    padding-top: 30px;
+    padding-top: 60px;
   }
   
 /* common footer and media are at the end of this file */
