@@ -8,6 +8,7 @@
     background-image: url(../imgBank/bg-mk.jpg);
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
   main {
     margin: 50px 0;
   }
@@ -25,22 +26,30 @@
     padding: 25px;
     /*padding: 25px; */
   }
+
   .block {
     background-color: #fff;
     padding: 30px;
     margin-bottom: 30px;
   }
+
   .block-header {
     color: rgb(4, 124, 124);
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
   }
+
   main .container {
     /*position: relative;  */
     flex-wrap: wrap; 
-    padding-top: 60px;
+    padding-top: 40px;
   }
-  
+
+  .custom-hr {
+    height: 1px;
+    background-color: rgb(4, 124, 124);
+  }
+
 /* common footer and media are at the end of this file */
 
 /******* styles for AboutMe-Home html file ******/
