@@ -87,6 +87,7 @@
     padding: 10px;
     background-color: rgb(4, 124, 124);
     color: white;
+    font-weight: bold;
     bottom: 10px;
     width: 100%;
     border: 10px;
@@ -100,17 +101,6 @@
 
 
 /******* Footer section for all html files ******/
-  /*.footerSection { 
-    position: absolute; 
-    border-top: 10px solid rgb(4, 124, 124);
-    background-color: black;
-    color: white; 
-    text-align: center;
-    padding: 10px;
-    font-size: small;
-    bottom: 0; 
-    width: 100%;
-  } */
   .footer {
     border-top: 10px solid rgb(4, 124, 124);
     background-color: black;
