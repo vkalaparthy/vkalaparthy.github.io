@@ -82,6 +82,17 @@
     height: 100%;
   } 
 
+  .forced-white-link {
+    color: white !important;
+  }
+
+  .color-box {
+    background-color: rgb(4, 124, 124);
+    color: white;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
   .bottom-text {
     position: absolute;
     padding: 10px;
