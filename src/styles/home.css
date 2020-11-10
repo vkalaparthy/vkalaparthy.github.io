@@ -1,0 +1,16 @@
+a {
+  display: table-cell;
+}
+
+.photo {
+  float: left;
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+
+.card-title {
+    background: rgb(4, 124, 124);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
