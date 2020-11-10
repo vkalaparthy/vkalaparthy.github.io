@@ -1,0 +1,22 @@
+.container-main {
+  /*position: relative;  */
+  flex-wrap: wrap; 
+  padding: 40px;
+}
+
+.block {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.block-header {
+  color: rgb(4, 124, 124);
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.custom-hr {
+  height: 1px;
+  background-color: rgb(4, 124, 124);
+}
