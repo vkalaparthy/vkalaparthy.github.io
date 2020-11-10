@@ -17,7 +17,7 @@ The following Porfolio projects are avaliable:
 
 * Burger Bonanza - This is a burger logger with MySQL, Node, Express, Handlebars and handmade ORM. used MVC design pattern to break the application into 3 parts.  
 
-![screenshot1](./images/Capture2.JPG)  
+![screenshot1](./Capture2.JPG)  
 
 * Note Taker - Created only backend for this application that can be used to write, save, and delete notes. This application uses an express backend and it saves and retrieves note data from a JSON file.  
 
@@ -29,7 +29,7 @@ The following Porfolio projects are avaliable:
 
 * Weather Dashboard - This is a weather Dashboard, which provided Today's weather along with 5 day forecast by using third-party APIs which allow developers to access their data and functionality by making Ajax request using JQuery.  
 
-![weather](./images/weather.PNG)   
+![weather](./weather.PNG)   
 
 * Code Quiz - This is a timed Quiz on HTML and Javascript fundamentals that any student can take and store the high scores to check the progress and comapre with peers. This application uses Browser's local storage and responsive.  
 
