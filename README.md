@@ -12,7 +12,7 @@ Portfolio page provides the Applications with deployed link and also the GitHub 
 The following Porfolio projects are avaliable:  
 * Huddle - This is an appication that is designed using Express, Handlebars, Sequelize ORM using MySQL database. Users have to be registered and Authenticated using passport. Huddle page is responsive and uses Bootstrap framework.  
 
-![huddle](./images/P2-UI2.JPG)  
+![huddle](./P2-UI2.JPG)  
 
 
 * Burger Bonanza - This is a burger logger with MySQL, Node, Express, Handlebars and handmade ORM. used MVC design pattern to break the application into 3 parts.  
@@ -21,11 +21,11 @@ The following Porfolio projects are avaliable:
 
 * Note Taker - Created only backend for this application that can be used to write, save, and delete notes. This application uses an express backend and it saves and retrieves note data from a JSON file.  
 
-![Image2](./images/CaptureNote2.JPG)  
+![Image2](./CaptureNote2.JPG)  
 
 * Dream Dog - An application that runs in a browser and features dynamically updated HTML, CSS, and JavaScript. Utilizes The Dog API and PetFinder API to allow a user to search for dogs in a selected state by either inputting a breed type or both a breed group and temperament. This was a group project with 4 contributors.  
 
-![dreamDog](./images/DreamDog.JPG)  
+![dreamDog](./DreamDog.JPG)  
 
 * Weather Dashboard - This is a weather Dashboard, which provided Today's weather along with 5 day forecast by using third-party APIs which allow developers to access their data and functionality by making Ajax request using JQuery.  
 
@@ -33,7 +33,7 @@ The following Porfolio projects are avaliable:
 
 * Code Quiz - This is a timed Quiz on HTML and Javascript fundamentals that any student can take and store the high scores to check the progress and comapre with peers. This application uses Browser's local storage and responsive.  
 
-![codeQuiz](./images/Capture1.PNG)
+![codeQuiz](./Capture1.PNG)
 
 
 Contact page is still under construction.
