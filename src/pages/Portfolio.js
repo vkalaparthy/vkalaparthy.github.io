@@ -1,5 +1,6 @@
 import React from "react";
 
+import EmpDirectory from "../imgBank/emp-directories.jpg";
 import Huddle from "../imgBank/huddle.JPG";
 import Burger from "../imgBank/burger.png";
 import RandomNotes from "../imgBank/RandomNotes2.jpg";
@@ -14,6 +15,27 @@ const Portfolio = () => (
   <>
     <h1 className="block-header">Portfolio</h1>
       <hr className="custom-hr"></hr>
+
+      <div className="row row-cols-1 row-cols-md-1">
+        <div className="card custome-card mb-3">
+          <div className="row no-gutters">
+            <div className="col-md-4">
+              <a href="https://vkalaparthy.github.io/react-employee-directory/" 
+                target="_blank" rel="noopener noreferrer">
+                <img src={EmpDirectory} alt="emp_dir" className="card-img-side"></img>
+              </a>
+            </div>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title">Employee Directory</h5>
+                <p className="card-text">Created an employee directory using React library. This application's UI is broken down into components, manage component state, and responds to user events. </p>
+                <p>Click on the picture to access Application. </p>
+                <a href="https://github.com/vkalaparthy/react-employee-directory" target="_blank" className="repo-link" rel="noopener noreferrer"> Repository </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="row row-cols-1 row-cols-md-1">
         <div className="card custome-card mb-3">

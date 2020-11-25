@@ -9,7 +9,12 @@ Finally a "Footer" that is common to all Pages.
 About Me page gives a brief descripion about me and my technical skill sets. This page also provided my Contact information and links to my GitHub, LinkedIn and Resume.  
 
 Portfolio page provides the Applications with deployed link and also the GitHub repository information.    
-The following Porfolio projects are avaliable:  
+The following Porfolio projects are avaliable: 
+
+* Employee Directory - Created an employee directory using React library. This application's UI is broken down into components, manage component state, and responds to user events. This application is deployed in Heroku. 
+
+![huddle](./images/EmpList.JPG)  
+
 * Huddle - This is an appication that is designed using Express, Handlebars, Sequelize ORM using MySQL database. Users have to be registered and Authenticated using passport. Huddle page is responsive and uses Bootstrap framework.  
 
 ![huddle](./images/P2-UI2.JPG)  
