@@ -1,16 +1,39 @@
 # vkalaparthy.github.io
 
-This repository has 3 HTML files that uses Bootstrap CSS Framework to create a mobile responsive portfolio with minimum media query.
+This is a GitHub user page designed and developed using ReactJS, providing Routes to 3 different pages that serve specific purpose.  
 
-All the pages use responsive layout and responsive images. Responsive layout contain Bootstrap Navbar and Footer, which is consistent on all html pages.
+It uses a common component called "NavBar", which also indicates the current active page that is rendered.  
+The "MainBlock" is used to display the selcted active content of the page based on the options in the NavBar, which are "About Me", "Portfolio" & "Contact".  
+Finally a "Footer" that is common to all Pages.  
 
-The Home page is also the same page as "About Me" which can also be accessed by clicking on person's name on the navbar. The mobile repsonsive screen has color-changed navbar with collapsed links and content adjusts to the full-width for mobile screen.
-When opened in Chrome, the screen changes when the screen shrinks to the width 768px, keep Navbar and footer in the right position. The screen is responsive when the screen width, height changes.
+About Me page gives a brief descripion about me and my technical skill sets. This page also provided my Contact information and links to my GitHub, LinkedIn and Resume.  
 
-The Home page contains author's personal information and links to author's LinkedIn page and resume.
+Portfolio page provides the Applications with deployed link and also the GitHub repository information.    
+The following Porfolio projects are avaliable:  
+* Huddle - This is an appication that is designed using Express, Handlebars, Sequelize ORM using MySQL database. Users have to be registered and Authenticated using passport. Huddle page is responsive and uses Bootstrap framework.  
 
-By clicking on the navigation link "Portfolio", user will be able to access author's portfolio, which is currently "Under Construction". The mobile repsonsive screen has color-changed navbar with collapsed links and the content grid adjusts to single column. When opened in Chrome, the screen changes when the screen shrinks to the width 768px, keep Navbar and footer in the right position. The screen is responsive when the screen width, height changes.
+![huddle](./images/P2-UI2.JPG)  
 
-By clicking on the navigation link "Contact" takes the user to a form where the user can enter the specified information, Click on the submit button is still not complete. The mobile repsonsive screen has color-changed navbar with collapsed links and content occupies full screen width. When opened in Chrome, the screen changes when the screen shrinks to the width 768px, keep Navbar and footer in the right position. The screen is responsive when the screen width, height changes.
 
-All the 3 HTML pages are consistent in design and allow the user to navigate freely, showing which page is active on the navbar.
+* Burger Bonanza - This is a burger logger with MySQL, Node, Express, Handlebars and handmade ORM. used MVC design pattern to break the application into 3 parts.  
+
+![screenshot1](./images/Capture2.JPG)  
+
+* Note Taker - Created only backend for this application that can be used to write, save, and delete notes. This application uses an express backend and it saves and retrieves note data from a JSON file.  
+
+![Image2](./images/CaptureNote2.JPG)  
+
+* Dream Dog - An application that runs in a browser and features dynamically updated HTML, CSS, and JavaScript. Utilizes The Dog API and PetFinder API to allow a user to search for dogs in a selected state by either inputting a breed type or both a breed group and temperament. This was a group project with 4 contributors.  
+
+![dreamDog](./images/DreamDog.JPG)  
+
+* Weather Dashboard - This is a weather Dashboard, which provided Today's weather along with 5 day forecast by using third-party APIs which allow developers to access their data and functionality by making Ajax request using JQuery.  
+
+![weather](./images/weather.PNG)   
+
+* Code Quiz - This is a timed Quiz on HTML and Javascript fundamentals that any student can take and store the high scores to check the progress and comapre with peers. This application uses Browser's local storage and responsive.  
+
+![codeQuiz](./images/Capture1.PNG)
+
+
+Contact page is still under construction.
