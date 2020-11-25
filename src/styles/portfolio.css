@@ -6,9 +6,11 @@ a {
   display: table-cell;
 }
 
-.card-img-top {
+.card-img-side {
+  padding: 5px;
   width: 100%;
   height: 225px;
+  border-radius: 20%;
 } 
 
 .cardholder {
@@ -27,7 +29,15 @@ a {
   margin-right: 2px;
 }
 
-.bottom-text {
+.repo-link {
+  background-color: rgb(4, 124, 124);
+  color: white;
+  text-align: center;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+/* .bottom-text {
   position: absolute;
   padding: 10px;
   background-color: rgb(4, 124, 124);
@@ -36,4 +46,10 @@ a {
   bottom: 10px;
   width: 100%;
   border: 10px;
+} */
+
+@media only screen and (max-width: 800px) {
+  .card-img-side {
+    width: 50%;
+  }
 }

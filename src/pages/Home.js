@@ -57,6 +57,10 @@ const Home = () => (
       My Resume
     </a>
     <br></br> 
+    <h4>Contact Info:</h4>
+    <span>Email: kalaparthy.vani@gmail.com</span>
+    <p>Phone: 919-579-4862</p>
+    <br></br>
     <p>Apart from being in software industry, I love to grow organic food, cook/bake, travel, photograph, read fiction and solve Su-do-ku. </p>
   </>
 );

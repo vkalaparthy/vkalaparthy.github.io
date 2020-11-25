@@ -6,6 +6,8 @@ import "../styles/contact.css";
 const Contact = () => (
   <>
     <h1 className="block-header">Contact</h1>
+      <p> EMAIL: kalaparthy.vani@gmail.com </p>
+      <p> Mobile: 919-579-4862</p>
       <hr className="custom-hr"></hr>
       <form>
         <div className="form-group">

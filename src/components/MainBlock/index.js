@@ -13,17 +13,11 @@ function MainBlock() {
     <main role="main" className="flex-shrink-0">
       <div className="container">
         <section className="row">
-          <div className="col-md-8">
+          <div className="col-md-10">
             <article className="block">
               <Route exact path="/" component={Home} />
               <Route exact path="/portfolio" component={Portfolio} />
               <Route path="/contact" component={Contact} />
-            {/* {currentPage === "Home" && (
-              <Home />
-            )}
-            {currentPage === "Portfolio" && (
-              <Portfolio />
-            )} */}
             </article>
           </div>
         </section>
