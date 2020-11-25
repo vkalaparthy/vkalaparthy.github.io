@@ -10,10 +10,16 @@
   text-align: center;
   padding: 25px;
   /*padding: 25px; */
+  animation: App-logo-change infinite 5s linear;
 }
 
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: rgb(4, 124, 124); 
   }
+}
+
+@keyframes App-logo-change {
+  from {color: white;}
+  to {color: rgb(4, 124, 124);}
 }
