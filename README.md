@@ -1,1 +1,0 @@
-# vkalaparthy.github.io
