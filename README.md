@@ -11,9 +11,13 @@ About Me page gives a brief descripion about me and my technical skill sets. Thi
 Portfolio page provides the Applications with deployed link and also the GitHub repository information.    
 The following Porfolio projects are avaliable: 
 
+* jamEZ - jamEZ is an application that allows users to browse artists and songs, add songs to a list, preview songs, view songs on Spotify, and browse newly-released songs using authenticated user accounts. This application is deployed in Heroku. 
+
+![jamez](./images/jamez.JPG)  
+
 * Employee Directory - Created an employee directory using React library. This application's UI is broken down into components, manage component state, and responds to user events. This application is deployed in Heroku. 
 
-![huddle](./images/EmpList.JPG)  
+![empList](./images/EmpList.JPG)  
 
 * Huddle - This is an appication that is designed using Express, Handlebars, Sequelize ORM using MySQL database. Users have to be registered and Authenticated using passport. Huddle page is responsive and uses Bootstrap framework.  
 
