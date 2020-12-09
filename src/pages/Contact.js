@@ -1,9 +1,30 @@
 import React from "react";
+import ReactNotifications, { store } from 'react-notifications-component';
+// import { store } from 'react-notifications-component';
+import 'animate.css';
+
 import "../styles/common.css";
 import "../styles/contact.css";
 
 
-const Contact = () => (
+// const Contact = () => (
+function Contact() {
+
+  function handleFormSubmit(event) {
+    event.preventDefault();
+    console.log("Submit button clicked");
+    store.addNotification({     
+      title: "Hello!", 
+      message: `This page is still under construction!`,
+      type: 'mynotif',                        
+      container: 'bottom-right',                
+      animationIn: ["animated", "fadeIn"],     
+      animationOut: ["animated", "fadeOut"],   
+      dismiss: {duration: 3000}
+    })
+  }
+
+  return ( 
   <>
     <h1 className="block-header">Contact</h1>
       <p> EMAIL: kalaparthy.vani@gmail.com </p>
@@ -23,8 +44,15 @@ const Contact = () => (
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
         </div>
       </form>
-      <button type="submit" className="btn custom-button">Submit</button>
+      <div className="main-view">
+        <ReactNotifications types={[{
+          htmlClasses: ['notification__item--mynotif'],
+          name: 'mynotif'
+        }]}/>
+      </div>
+      <button type="submit" className="btn custom-button" onClick={handleFormSubmit}>Submit</button>
   </>
-);
+  )
+}
 
 export default Contact;

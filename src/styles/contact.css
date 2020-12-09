@@ -2,3 +2,10 @@
   background-color: rgb(4, 124, 124);
   color: white;
 }
+
+.notification__item--mynotif {
+  /* background-color: rgb(4, 124, 124) !important; */
+  border-left: 0px !important;
+  font-weight: bold;
+  color: rgb(4, 124, 124);
+}
