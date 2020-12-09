@@ -7,8 +7,8 @@ import Huddle from "../imgBank/huddle.JPG";
 import Burger from "../imgBank/burger.png";
 import RandomNotes from "../imgBank/RandomNotes2.jpg";
 import Doggy from "../imgBank/doggy.jpg";
-// import Weather from "../imgBank/Weather.jpg";
-// import Quiz from "../imgBank/quiz.png";
+import Weather from "../imgBank/Weather.jpg";
+import Quiz from "../imgBank/quiz.png";
 import "../styles/common.css";
 // import "../styles/portfolio.css";
 
@@ -72,23 +72,23 @@ const Portfolio = () => (
         repoLink={"https://github.com/vkalaparthy/2020-Project1"}
       />
 
-      {/* <ProjectDiv 
+      <ProjectDiv 
         deployedLink={"https://vkalaparthy.github.io/Weather-Dashboard/"}
         image={Weather}
         altImage={"weather"}
         title={"Weather Dashboard"}
         info={"This is a weather Dashboard, which provided Today's weather along with 5 day forecast by using third-party APIs."}
         repoLink={"https://github.com/vkalaparthy/Weather-Dashboard"}
-      /> */}
+      />
 
-      {/* <ProjectDiv 
+      <ProjectDiv 
         deployedLink={"https://vkalaparthy.github.io/CodeQuiz/"}
         image={Quiz}
         altImage={"quiz"}
         title={"Code Quiz"}
         info={"This is a timed Quiz on HTML and Javascript fundamentals that any student can take and store the high scores to check the progress."}
         repoLink={"https://github.com/vkalaparthy/CodeQuiz"}
-      />    */}
+      />   
   </>
 );
 

@@ -36,13 +36,13 @@ The following Porfolio projects are avaliable:
 
 ![dreamDog](./images/DreamDog.JPG)  
 
-<!-- * Weather Dashboard - This is a weather Dashboard, which provided Today's weather along with 5 day forecast by using third-party APIs which allow developers to access their data and functionality by making Ajax request using JQuery.  
+* Weather Dashboard - This is a weather Dashboard, which provided Today's weather along with 5 day forecast by using third-party APIs which allow developers to access their data and functionality by making Ajax request using JQuery.  
 
 ![weather](./images/weather.PNG)   
 
 * Code Quiz - This is a timed Quiz on HTML and Javascript fundamentals that any student can take and store the high scores to check the progress and comapre with peers. This application uses Browser's local storage and responsive.  
 
-![codeQuiz](./images/Capture1.PNG) -->
+![codeQuiz](./images/Capture1.PNG)
 
 
 Contact page is still under construction.
